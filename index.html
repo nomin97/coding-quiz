@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,77 @@
 </head>
 
 <body>
-    
+    <header>
+        <h1>Test Your Knowledge!</h1>
+        <h2 id="timer"></h2>
+    </header>
+    <main>
+        <section>
 
-    
-    <script src="./assets/script.js" ></script>
+            <div class="Intro">
+                <div class="start-quiz">
+                    <h2>Start the Quiz!</h2>
+                    <p>Press the start button below to test your javaScript knowledge!</p>
+                </div>
+                <button class="start button">START</button>
+            </div>
+
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-questions">
+                    <h2 id="question">space for question</h2>
+                    <ul>
+                        <li><button class="answer" id="a"></li>
+                        <li><button class="answer" id="b"></li>
+                        <li><button class="answer" id="c"></li>
+                        <li><button class="answer" id="d"></li>
+                    </ul>
+                </div>
+                <button id="submit">Submit Answer</button>
+            </div>
+
+            <div class="results-container" id="results">
+                <h2 id="correct-answers"></h2>
+                <div id="initials"></div>
+                <button id="submit-intials" onClick="submitInitials()">Submit Initials</button>
+            </div>
+
+            <div class="high-score-container" id="scores" style="display: none;">
+                <div class="score-list">
+                    <h1>High Scores</h1>
+                    <ul>
+                        <li id="high-score-1">
+                            <label class="name"></label>
+                            <label></label>
+                        </li>
+
+                        <li id="high-score-2"></label>
+                            <label class="name">
+                                <label></label>
+                        </li>
+
+                        <li id="high-score-3"></label>
+                            <label class="name">
+                                <label></label>
+                        </li>
+
+                        <li id="high-score-4"></label>
+                            <label class="name">
+                                <label></label>
+                        </li>
+
+                        <li id="high-score-5"></label>
+                            <label class="name">
+                                <label></label>
+                        </li>
+                    </ul>
+                </div>
+                <button id="return-btn">Return</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="./assets/script.js"></script>
 </body>
+<footer>Thank you for Playing!</footer>
+
 </html>
