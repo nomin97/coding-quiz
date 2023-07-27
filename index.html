@@ -11,20 +11,18 @@
 <body>
     <header>
         <h1>Test Your Knowledge!</h1>
-        <h2 id="timer"></h2>
+        <h2 id="timer">Timer</h2>
     </header>
     <main>
         <section>
 
-            <div class="Intro">
-                <div class="start-quiz">
+            <div class="intro">
                     <h2>Start the Quiz!</h2>
-                    <p>Press the start button below to test your javaScript knowledge!</p>
-                </div>
+                    <p>Press the start button below to test your JavaScript knowledge!</p>
                 <button class="start button">START</button>
             </div>
 
-            <div class="quiz-container" id="quiz">
+            <div class="quiz" id="quiz">
                 <div class="quiz-questions">
                     <h2 id="question">space for question</h2>
                     <ul>
@@ -37,13 +35,13 @@
                 <button id="submit">Submit Answer</button>
             </div>
 
-            <div class="results-container" id="results">
+            <div class="results" id="results">
                 <h2 id="correct-answers"></h2>
                 <div id="initials"></div>
                 <button id="submit-intials" onClick="submitInitials()">Submit Initials</button>
             </div>
 
-            <div class="high-score-container" id="scores" style="display: none;">
+            <div class="high-score" id="scores" style="display: none;">
                 <div class="score-list">
                     <h1>High Scores</h1>
                     <ul>
@@ -80,6 +78,6 @@
     </main>
     <script src="./assets/script.js"></script>
 </body>
-<footer>Thank you for Playing!</footer>
+<footer>Thank you for playing!</footer>
 
 </html>
