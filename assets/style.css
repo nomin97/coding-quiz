@@ -32,7 +32,10 @@ p {
     padding: 10px 0px;
   }
   
-  
+ #intro {
+    text-align: center;
+    padding: 10px 0px;
+  }
   .quiz {
     text-align: center;
     padding: 10px;
