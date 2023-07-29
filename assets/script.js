@@ -41,7 +41,7 @@ var quizQA = [
     },
 ];
 
-var setTime = 90 * 1000
+var setTime = 60 * 1000
 var intro = document.getElementById('intro')
 var startButton = document.getElementById('start-button')
 var quiz = document.getElementById('quiz')
@@ -134,14 +134,14 @@ let rank
     }
   
     correctAnswers.innerHTML = `
-      You answered ${score} out of ${quizQA.length} questions correctly
+      You answered ${score} out of ${quizQA.length} questions correctly!
     `
   
     if (rank < highScoreMaxCount) {
       highScoreInitials = '';
       submitInitials.innerHTML = 'Submit';
       initials.innerHTML = `
-        <h3>Congratulations, you've reached rank #${rank + 1}!</h3>
+        <h3>Congratulations, you're rank #${rank + 1}!</h3>
         <label>Enter your initials</label>
         <input id="high-score-input" maxlength="3"></input>
       `
