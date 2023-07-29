@@ -9,6 +9,8 @@ n/a
 ## Usage
 User can press start button to start the quiz and begin the timer. when timer begins, user must make choice before time runs out. wrong answers will subtract 5seconds from the timer.
 
+https://nomin97.github.io/coding-quiz/
+
 ![first page of quiz](./assets/page1.png)
 ![second page of quiz](./assets/page2.png)
 
